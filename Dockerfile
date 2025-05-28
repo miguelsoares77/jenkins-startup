@@ -6,7 +6,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     curl build-essential libssl-dev libffi-dev \
     python3 python3-venv python3-dev python3-pip \
-    jq wget unzip ansible gnupg lsb-release ca-certificates software-properties-common envsubst && \
+    jq wget unzip ansible gnupg lsb-release ca-certificates software-properties-common gettext && \
     # Instalar Docker
     curl -fsSL https://get.docker.com | sh && \
     # Instalar Terraform
